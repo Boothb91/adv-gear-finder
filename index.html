@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ADV Gear Finder</title><meta name="description" content="Adventure motorcycle gear finder for KLR650, Pan America and CFMOTO IBEX.">
+<link rel="stylesheet" href="styles.css"></head><body>
+<header><a class="logo" href="#">ADV <span>GEAR FINDER</span></a><nav><a href="#finder">Finder</a><a href="#bikes">Bikes</a><a href="#products">Products</a><a href="#compare">Compare</a></nav></header>
+<section class="hero"><div><p class="kicker">ADV SHOPPING, WITHOUT THE BULLSHIT</p><h1>Find gear that fits<br><i>your</i> adventure.</h1><p>Compare real products by motorcycle, use case and budget. Start with the KLR650, Pan America and CFMOTO IBEX.</p><a class="cta" href="#finder">Find My Gear →</a></div></section>
+<section id="finder" class="wrap finder"><p class="kicker">GEAR FINDER</p><h2>Build your setup</h2>
+<div class="filters"><label>Bike<select id="bike"><option>All bikes</option><option>KLR</option><option>Pan America</option><option>IBEX</option></select></label>
+<label>Category<select id="cat"><option>All categories</option></select></label>
+<label>Budget<select id="budget"><option>Any budget</option><option>Under $100</option><option>$100–$250</option><option>$250–$500</option><option>$500+</option></select></label>
+<button class="cta" onclick="filterProducts()">Show gear</button></div></section>
+<section id="bikes" class="wrap"><p class="kicker">OUR THREE FOUNDING BIKE FAMILIES</p><h2>Built around riders, not brands.</h2><div class="bikegrid">
+<div class="bike"><b>K</b><h3>Kawasaki KLR650</h3><p>KLR650 • KLR650 S • KLR650 Adventure</p><button onclick="choose('KLR')">Shop KLR →</button></div>
+<div class="bike"><b>H-D</b><h3>Pan America 1250</h3><p>Special • ST • Limited</p><button onclick="choose('Pan America')">Shop Pan America →</button></div>
+<div class="bike"><b>CF</b><h3>CFMOTO IBEX</h3><p>IBEX 450 • 800 family</p><button onclick="choose('IBEX')">Shop IBEX →</button></div></div></section>
+<section id="products" class="products"><div class="wrap"><div class="headrow"><div><p class="kicker">PRODUCT DATABASE</p><h2>Real products. Verified fitment.</h2></div><span id="count"></span></div><div id="grid" class="grid"></div></div></section>
+<section id="compare" class="wrap"><p class="kicker">COMPARE</p><h2>Shopping questions we'll answer.</h2><div class="comparisons">
+<div><b>KLR650 vs IBEX 450</b><span>Which makes more sense for your money?</span></div>
+<div><b>IBEX 450 vs IBEX 800</b><span>How much motorcycle do you actually need?</span></div>
+<div><b>KLR650 vs Pan America</b><span>Budget ADV versus premium power.</span></div>
+<div><b>Best two-up setup</b><span>Luggage, comfort and suspension.</span></div></div></section>
+<section class="dark"><div class="wrap"><p class="kicker">HOW WE MAKE MONEY</p><h2>We help the rider buy. The retailer handles the sale.</h2><div class="money"><div><b>1</b><p>Research real products.</p></div><div><b>2</b><p>Verify fitment and use case.</p></div><div><b>3</b><p>Send shoppers to retailers.</p></div><div><b>4</b><p>Earn qualifying affiliate commissions.</p></div></div><p class="note">Affiliate links will only be activated after program approval and tracking links are available. Prices change; verify before purchase.</p></div></section>
+<footer><b>ADV GEAR FINDER</b><span>Independent adventure motorcycle shopping guide.</span></footer>
+<script src="app.js"></script></body></html>
